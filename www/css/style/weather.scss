@@ -1,0 +1,112 @@
+.timeforecastDaily {
+    display: flex;
+    flex-direction: column;
+    .weathericon {
+        border-bottom: 1px double #6093a3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .weatherDate {
+            flex-grow: 2;
+            padding: 1em;
+        }
+        .daysIcon {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding: 1em 0;
+            .daysImg {
+                padding: 0.5em;
+                text-align: center;
+                margin: 0;
+                img {
+                    width: 4em;
+                    height: 3em;
+                }
+            }
+            .weathText {
+                padding: 1em 0;
+                text-align: center;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.weatherView {
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+    .material-icons {
+        color: white;
+    }
+    h2 {
+        margin: 0;
+    }
+}
+
+.days {
+    min-height: 100%;
+    background: #54BCF9;
+    background: radial-gradient(ellipse at center, #54BCF9, #124A53);
+    color: white;
+    h1 {
+        text-align: center;
+    }
+}
+
+.weatherViewDaily {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timeforecastItem {
+    flex-grow: 1;
+    text-align: center;
+    img {
+        padding-bottom: 1em;
+    }
+    hr {
+        border-color: #9ad6f7b3;
+    }
+}
+
+.timeforecast {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.weathTemp {
+    font-size: 9rem;
+    margin: 0;
+    text-align: center;
+}
+
+.weatherIconSec {
+    text-align: center;
+}
+
+.tomorrow,
+.weatherWrap {
+    min-height: 100%;
+    background: #83C7FC;
+    background: radial-gradient(ellipse at center, #83C7FC, #086AB7);
+    color: white;
+}

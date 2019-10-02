@@ -1,0 +1,78 @@
+.home {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #54BCF9;
+    background: radial-gradient(ellipse at center, #54BCF9, #3D4276);
+    h2 {
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        margin: 0;
+        padding: 0.6em 0.6em;
+        background-color: #2b2b2b4a;
+    }
+    p{
+        padding-left: 0.5em;
+    }
+}
+
+.weatherHome {
+    flex-grow: 1;
+}
+
+.uvi {
+    flex-grow: 1;
+}
+
+.airq {
+    flex-grow: 1;
+}
+
+
+
+
+
+.good {
+    background-color: #009966;
+}
+
+.moderate {
+    background-color: #ffde33;
+}
+
+.bad {
+    background-color: #ff9933;
+}
+.verybad {
+    background-color: #c03;
+}
+
+.extremlybad {
+    background-color: #609;
+}
+.hazardous {
+    background-color: #7e0023;
+}
+
+
+
+
+
+.login {
+    background: #F5FBFF;
+    background: -webkit-radial-gradient(bottom, #F5FBFF, #999999);
+    background: -moz-radial-gradient(bottom, #F5FBFF, #999999);
+    background: radial-gradient(to top, #F5FBFF, #999999);
+    min-height: 100%;
+    h1{
+        text-align: center;
+        padding: 1em;
+        margin: 0;
+        background-color: #00000047;
+    }
+    form {
+        padding: 1em;
+    }
+}

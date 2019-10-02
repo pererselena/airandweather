@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+    .bottom-nav {
+        order: 2;
+        border-top: 1px solid #ccc;
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+
+    #root {
+        align-items: stretch;
+        min-height: 100%;
+    }
+
+    .container {
+        order: 1;
+        flex-grow: 1;
+        // height: 100%;
+        width: 100%;
+    }
+
+    .timeforecast {
+        overflow-x: scroll;
+    }
+
+    .weathTemp {
+        font-size: 5rem;
+    }
+
+
+    .weatherIconSec {
+        img {
+            width: 8em;
+        }
+    }
+
+
+
+
+
+    .uviItem {
+        width: 3em;
+        height: 3em;
+        padding: 0;
+    }
+
+    .uviTime {
+        font-size: 0.6rem;
+        margin-top: 0.1em;
+    }
+
+    .uviIndex {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+        padding-bottom: 0.01em;
+    }
+
+    .tempNav {
+        font-size: 2rem;
+    }
+
+    .weathericon img {
+        width: 7em;
+    }
+}

@@ -1,0 +1,28 @@
+.weathericon img {
+    width: 9em;
+}
+
+.leaflet-div-icon {
+    background: none !important;
+    border: none !important;
+}
+
+.mapIconInfo {
+    color: #4e4d4dfa;
+    background-color: #354553a1;
+    border-radius: 3em;
+    width: 8rem;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    box-shadow: 7px 11px 26px -5px #000000c7;
+    img {
+        width: 5em;
+    }
+}
+
+.timeforecastItem {
+    img {
+        width: 4em;
+    }
+}

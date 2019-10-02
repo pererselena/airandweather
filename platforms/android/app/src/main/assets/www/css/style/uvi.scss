@@ -1,0 +1,116 @@
+.uvi {
+    min-height: 100%;
+    color: white;
+}
+
+.uviItem {
+    border-radius: 20%;
+    padding: 0;
+    width: 6em;
+    height: 6em;
+    text-align: center;
+}
+
+.uviForecast {
+    background-color: #00000029;
+    padding-bottom: 2em;
+    h2 {
+        padding: 0.2em;
+    }
+}
+
+.uviValue {
+    background-color: #00000029;
+    text-align: center;
+    padding: 2em;
+
+    .big {
+        font-size: 2rem;
+    }
+
+    .small {
+        font-size: 0.7rem;
+        padding-right: 0.4em;
+    }
+
+    p {
+        display: inline;
+    }
+}
+
+.uviWeather {
+    background-color: #00000054;
+
+    a {
+        flex-grow: 4;
+        .material-icons {
+            color: white;
+            float: right;
+            margin: 0.2em;
+            font-size: 4.5em;
+        }
+
+    }
+}
+
+.uviForecastCont,
+.uviWeather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.uvlow {
+    background-color: green;
+}
+
+.uvmoderate {
+    background-color: orange;
+}
+
+.uvhigh {
+    background-color: red;
+}
+
+.uvveryhigh {
+    background-color: darkred;
+}
+
+.uvextreme {
+    background-color: purple;
+}
+
+.uviIndex {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    padding-bottom: 0.01em;
+}
+
+.uviTime {
+    font-size: 1.2rem;
+    margin-top: 0.1em;
+}
+
+.bigIndex {
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+.uviNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.tempNav {
+    margin: 0;
+    font-size: 5rem;
+    margin-top: 0.2em;
+}
+
+.location {
+    margin: 0;
+    margin-top: 0.4em;
+    font-size: 1.5em;
+}

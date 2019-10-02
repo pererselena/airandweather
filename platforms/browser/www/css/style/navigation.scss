@@ -1,0 +1,49 @@
+.bottom-nav {
+    align-self: flex-start;
+    order: 1;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    flex: 0 0 auto;
+}
+
+
+.bottom-nav a {
+    text-align: center;
+    color: $dark-grey;
+    text-decoration: none;
+}
+
+.bottom-nav a.active {
+    color: #4e75ba;
+}
+
+.bottom-nav i {
+    display: block;
+
+}
+
+.bottom-nav span {
+    font-size: 0.7rem;
+}
+
+.weatherNav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    a {
+        text-decoration: none;
+        padding: 1em;
+        flex-grow: 1;
+        text-align: center;
+        color: white;
+    }
+    a.active {
+        border-bottom: 2px double white;
+    }
+}
